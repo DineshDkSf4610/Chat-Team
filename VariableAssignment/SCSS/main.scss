@@ -1,0 +1,48 @@
+$cardWidth: 30%;
+$primaryColor: #001fb9;
+$secoundaryColor: white;
+$cardMargin: 20px;
+$cardShow: 0 0 3px gray;
+$cardPadding: 15px;
+$btnWidth: 100px;
+$btnPadding: 6px;
+$btnRadius: 10px;
+$cardRadius: 5px;
+$contentHeight: 130px;
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+}
+
+.card {
+    width: $cardWidth;
+    background-color: $secoundaryColor;
+    margin: $cardMargin;
+    text-align: center;
+    -webkit-box-shadow: $cardShow;
+    padding: $cardPadding;
+    border-radius: $cardRadius;
+
+}
+.btn {
+    padding: $btnPadding;
+    width: $btnWidth;
+    border-radius: $btnRadius;
+    border: 2px solid $primaryColor;
+    color: $primaryColor;
+    background-color: $secoundaryColor;
+}
+
+.content {
+    height: $contentHeight;
+}
+
+.imgStyle {
+    width: 180px;
+    height: 180px;
+}

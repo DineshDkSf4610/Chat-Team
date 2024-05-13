@@ -1,0 +1,31 @@
+$primaryColor:#353590;
+$secoundaryColor: #353590;
+.main {
+    width: 70%;
+    margin: auto;
+    border: 1px solid;
+}
+
+.row {
+    display: flex;
+}
+
+//nesting
+.col-selctors {
+    width: 50%;
+    padding: 10px;
+
+    h3 {
+        font-weight: bold;
+        color: $primaryColor;
+    }
+
+    p {
+        color: $secoundaryColor;
+    }
+}
+
+.title {
+    color: $primaryColor;
+    text-align: center;
+}

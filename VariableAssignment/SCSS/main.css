@@ -1,0 +1,36 @@
+.main {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.card {
+  width: 30%;
+  background-color: white;
+  margin: 20px;
+  text-align: center;
+  -webkit-box-shadow: 0 0 3px gray;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.btn {
+  padding: 6px;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid #001fb9;
+  color: #001fb9;
+  background-color: white;
+}
+
+.content {
+  height: 130px;
+}
+
+.imgStyle {
+  width: 180px;
+  height: 180px;
+}/*# sourceMappingURL=main.css.map */

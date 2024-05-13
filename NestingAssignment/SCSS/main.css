@@ -1,0 +1,26 @@
+.main {
+  width: 70%;
+  margin: auto;
+  border: 1px solid;
+}
+
+.row {
+  display: flex;
+}
+
+.col-selctors {
+  width: 50%;
+  padding: 10px;
+}
+.col-selctors h3 {
+  font-weight: bold;
+  color: #353590;
+}
+.col-selctors p {
+  color: #353590;
+}
+
+.title {
+  color: #353590;
+  text-align: center;
+}/*# sourceMappingURL=main.css.map */
