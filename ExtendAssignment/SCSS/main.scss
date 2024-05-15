@@ -1,0 +1,92 @@
+@import './colors';
+@import './variables';
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex: row;
+}
+
+.card {
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border-radius: 5px;
+    -webkit-box-shadow: 0 0 3px $cardShow;
+
+    .imgStyle {
+        width: 180px;
+        height: 180px;
+    }
+
+    .title {
+        font-size: 16px;
+        font-weight: bold;
+
+    }
+
+    .subTitle {
+        font-size: 12px;
+
+        color: red;
+    }
+
+    .content {
+        height: 330px;
+    }
+
+    .btn {
+        padding: $btnPadding;
+        width: $btnWidth;
+        border-radius: $btnRadius;
+        border: 2px solid $primaryColor;
+        color: $primaryColor;
+        background-color: $secoundaryColor;
+    }
+}
+
+
+
+.card1 {
+    @extend .card;
+
+    .title {
+        font-size: 20px;
+    }
+
+    .subTitle {
+        color: green;
+        font-size: 15px;
+    }
+
+    .btn {
+        background-color: black;
+        color: red;
+        border-color: red;
+    }
+}
+
+.card2 {
+    @extend .card;
+
+    .title {
+        font-size: 24px;
+    }
+
+    .subTitle {
+        color: violet;
+        font-size: 20px;
+    }
+
+    .btn {
+        background-color: orange;
+        color: green;
+        border-color: green;
+    }
+}

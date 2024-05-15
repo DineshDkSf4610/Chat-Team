@@ -1,0 +1,68 @@
+.main {
+  width: 80%;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex: row;
+}
+
+.card, .card2, .card1 {
+  width: 100%;
+  text-align: center;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 3px gray;
+}
+.card .imgStyle, .card2 .imgStyle, .card1 .imgStyle {
+  width: 180px;
+  height: 180px;
+}
+.card .title, .card2 .title, .card1 .title {
+  font-size: 16px;
+  font-weight: bold;
+}
+.card .subTitle, .card2 .subTitle, .card1 .subTitle {
+  font-size: 12px;
+  color: red;
+}
+.card .content, .card2 .content, .card1 .content {
+  height: 330px;
+}
+.card .btn, .card2 .btn, .card1 .btn {
+  padding: 6px;
+  width: 100px;
+  border-radius: 10px;
+  border: 2px solid #001fb9;
+  color: #001fb9;
+  background-color: white;
+}
+
+.card1 .title {
+  font-size: 20px;
+}
+.card1 .subTitle {
+  color: green;
+  font-size: 15px;
+}
+.card1 .btn {
+  background-color: black;
+  color: red;
+  border-color: red;
+}
+
+.card2 .title {
+  font-size: 24px;
+}
+.card2 .subTitle {
+  color: violet;
+  font-size: 20px;
+}
+.card2 .btn {
+  background-color: orange;
+  color: green;
+  border-color: green;
+}/*# sourceMappingURL=main.css.map */

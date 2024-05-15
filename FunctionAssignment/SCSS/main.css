@@ -1,0 +1,33 @@
+.box1 {
+  width: 9%;
+  height: 100%;
+  background-color: gray;
+}
+
+.box2 {
+  width: 19%;
+  height: 100%;
+  background-color: gray;
+}
+
+.box3 {
+  width: 29%;
+  height: 100%;
+  background-color: gray;
+}
+
+.box4 {
+  width: 39%;
+  height: 100%;
+  background-color: gray;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+}
+.row p {
+  color: white;
+  margin: 0;
+}/*# sourceMappingURL=main.css.map */
