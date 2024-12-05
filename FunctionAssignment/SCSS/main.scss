@@ -1,0 +1,42 @@
+@import './colors';
+@import './variable';
+
+
+@function Width($widthType) {
+    @return map-get($width, $widthType)
+}
+
+.box1 {
+    width: Width(small);
+    height: 100%;
+    background-color: $secoundaryColor;
+}
+
+.box2 {
+    width: Width(medium);
+    height: 100%;
+    background-color: $secoundaryColor;
+}
+
+.box3 {
+    width: Width(large);
+    height: 100%;
+    background-color: $secoundaryColor;
+}
+
+.box4 {
+    width: Width(extralarge);
+    height: 100%;
+    background-color: $secoundaryColor;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+
+    p {
+        color: $textColor;
+        margin: 0;
+    }
+}

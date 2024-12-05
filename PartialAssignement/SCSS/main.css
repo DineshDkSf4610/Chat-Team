@@ -1,0 +1,20 @@
+.main {
+  width: 80%;
+  margin: auto;
+  padding: 10px;
+  font-weight: 400;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title {
+  font-weight: 500;
+}
+
+.subTitle {
+  font-weight: 400;
+}
+.subTitle a {
+  text-decoration: none;
+  color: blue;
+}/*# sourceMappingURL=main.css.map */

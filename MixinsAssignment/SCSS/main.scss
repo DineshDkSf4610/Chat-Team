@@ -1,0 +1,47 @@
+@mixin fontStyle($align, $fWeight) {
+    text-align: $align;
+    color: #4d4d8d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: $fWeight;
+}
+
+@mixin cardCommon() {
+    width: 100%;
+    margin: 10px;
+    flex-direction: column;
+    display: flex;
+}
+
+.main {
+    width: 80%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex: row;
+}
+
+.card {
+    @include cardCommon();
+    @include fontStyle(left, 400);
+    img {
+        width: 13%;
+    }
+
+    p {
+        margin: 0;
+        @include fontStyle(left, 200);
+    }
+}
+
+.title {
+    @include fontStyle(center, bold);
+   
+    p {
+        width: 70%;
+        margin: auto;
+        @include fontStyle(center, 400);
+    }
+}
